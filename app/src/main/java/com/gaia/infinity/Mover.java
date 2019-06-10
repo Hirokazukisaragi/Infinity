@@ -30,7 +30,7 @@ class Mover extends TimerTask {
             myx-=4;
             maid.postInvalidate();
             if (myx <= 0) {
-                lflag = true;
+                lflag = atrue;
                 rflag = false;
             }
         }
