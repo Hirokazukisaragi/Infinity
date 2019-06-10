@@ -12,7 +12,7 @@ import java.util.TimerTask;
 class Maid extends View{
     Paint p;
     Mover move;
-
+    String s = "hello!";
     public Maid(Context context){
        super(context);
        move = new Mover(this);
